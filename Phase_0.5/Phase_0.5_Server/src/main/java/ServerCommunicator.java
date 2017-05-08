@@ -12,7 +12,7 @@ import java.util.concurrent.Executor;
 public class ServerCommunicator extends HttpServer {
 
     public void bind(InetSocketAddress inetSocketAddress, int i) throws IOException {
-        
+
     }
 
     public void start() {
