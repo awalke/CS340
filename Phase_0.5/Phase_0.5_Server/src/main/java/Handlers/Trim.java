@@ -18,24 +18,12 @@ public class Trim implements HttpHandler {
     public void handle(HttpExchange httpExchange) throws IOException {
         InputStream inputStream = httpExchange.getRequestBody();
 
-        JsonObject jsonObject = decode(inputStream);
-
-        IStringProcessor stringProcessor = new StringProcessor();
-        String response = stringProcessor.trim(jsonObject.get("string").getAsString());
+        IStringProcessor stringProcessor = StringProcessor.getInstance();
+        String response = stringProcessor.trim(BaseHandler.decode(inputStream));
 
         httpExchange.sendResponseHeaders(200, response.length());
         OutputStream os = httpExchange.getResponseBody();
         os.write(response.getBytes());
         os.close();
-    }
-
-    public JsonObject decode(InputStream inputStream) {
-        java.util.Scanner s = new java.util.Scanner(inputStream).useDelimiter("\\A");
-        String result = s.hasNext() ? s.next() : "";
-
-        JsonParser jsonParser = new JsonParser();
-        JsonObject jo = (JsonObject)jsonParser.parse(result);
-
-        return jo;
     }
 }

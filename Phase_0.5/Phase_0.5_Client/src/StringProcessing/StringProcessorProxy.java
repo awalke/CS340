@@ -9,8 +9,17 @@ import java.io.IOException;
  */
 public class StringProcessorProxy implements IStringProcessor {
     private ClientCommunicator clientCommunicator;
+    private static StringProcessorProxy instance;
 
-    public StringProcessorProxy() throws IOException {
+    public static StringProcessorProxy getInstance() throws IOException {
+        if (instance == null) {
+            instance = new StringProcessorProxy();
+        }
+
+        return instance;
+    }
+
+    private StringProcessorProxy() throws IOException {
         clientCommunicator = new ClientCommunicator();
     }
 

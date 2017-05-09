@@ -26,10 +26,4 @@ public class ServerCommunicator{
         server.createContext("/parseInt", new ParseInteger());
         server.start();
     }
-
-//    public void send(String urlSuffix, JsonObject jsonString) throws IOException{
-//        if (urlSuffix.equals("/toLowerCase")) {
-//            server.createContext("/toLowerCase", new ToLowerCase(jsonString));
-//        }
-//    }
 }

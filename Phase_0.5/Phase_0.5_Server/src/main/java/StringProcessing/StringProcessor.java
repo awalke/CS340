@@ -5,6 +5,20 @@ package StringProcessing;
  */
 public class StringProcessor implements IStringProcessor{
 
+    private static StringProcessor instance;
+
+    public static StringProcessor getInstance() {
+        if (instance == null) {
+            instance = new StringProcessor();
+        }
+
+        return instance;
+    }
+
+    private StringProcessor() {
+
+    }
+
     public String toLowerCase(String givenString) {
         String result = givenString.toLowerCase();
         System.out.println(result);
