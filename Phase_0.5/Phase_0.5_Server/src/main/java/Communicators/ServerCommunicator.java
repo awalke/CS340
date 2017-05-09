@@ -1,5 +1,8 @@
 package Communicators;
 
+import Handlers.ParseInteger;
+import Handlers.ToLowerCase;
+import Handlers.Trim;
 import com.google.gson.JsonObject;
 import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpHandler;
@@ -12,48 +15,21 @@ import java.util.concurrent.Executor;
 /**
  * Created by awalke on 5/8/17.
  */
-public class ServerCommunicator extends HttpServer {
+public class ServerCommunicator{
 
-    public void bind(InetSocketAddress inetSocketAddress, int i) throws IOException {
+    private HttpServer server;
+
+    public ServerCommunicator() throws IOException {
+        server = server.create(new InetSocketAddress(8080), 0);
+        server.createContext("/toLowerCase", new ToLowerCase());
+        server.createContext("/trim", new Trim());
+        server.createContext("/parseInt", new ParseInteger());
+        server.start();
     }
 
-    public void start() {
-
-    }
-
-    public void setExecutor(Executor executor) {
-
-    }
-
-    public Executor getExecutor() {
-        return null;
-    }
-
-    public void stop(int i) {
-
-    }
-
-    public HttpContext createContext(String s, HttpHandler httpHandler) {
-        return null;
-    }
-
-    public HttpContext createContext(String s) {
-        return null;
-    }
-
-    public void removeContext(String s) throws IllegalArgumentException {
-
-    }
-
-    public void removeContext(HttpContext httpContext) {
-
-    }
-
-    public InetSocketAddress getAddress() {
-        return null;
-    }
-
-    public void send(String urlSuffix, JsonObject jsonString) {
-
-    }
+//    public void send(String urlSuffix, JsonObject jsonString) throws IOException{
+//        if (urlSuffix.equals("/toLowerCase")) {
+//            server.createContext("/toLowerCase", new ToLowerCase(jsonString));
+//        }
+//    }
 }

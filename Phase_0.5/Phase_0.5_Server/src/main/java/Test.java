@@ -7,9 +7,9 @@ import java.io.OutputStream;
 /**
  * Created by awalke on 5/8/17.
  */
-public class Trim implements HttpHandler {
+public class Test implements HttpHandler {
     public void handle(HttpExchange httpExchange) throws IOException {
-        String response = httpExchange.getRequestHeaders().getFirst("String");
+        String response = "Hello World";
         httpExchange.sendResponseHeaders(200, response.length());
         OutputStream os = httpExchange.getResponseBody();
         os.write(response.getBytes());

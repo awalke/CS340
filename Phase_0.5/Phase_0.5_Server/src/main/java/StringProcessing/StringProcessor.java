@@ -1,25 +1,23 @@
 package StringProcessing;
-import Communicators.ClientCommunicator;
-import org.omg.PortableInterceptor.ClientRequestInfo;
-import org.omg.PortableInterceptor.RequestInfo;
 
 /**
  * Created by awalke on 5/8/17.
  */
 public class StringProcessor implements IStringProcessor{
-    ClientCommunicator clientCommunicator;
 
-    protected StringProcessor() {
-        clientCommunicator = new ClientCommunicator();
+    public String toLowerCase(String givenString) {
+        String result = givenString.toLowerCase();
+        return result;
     }
 
-    public void toLowerCase(String givenString) {
+    public int parseInteger(String givenString) {
+        int result = Integer.parseInt(givenString);
+        return result;
     }
 
-    public void parseInteger(String givenString) {
-    }
-
-    public void trim(String givenString) {
+    public String trim(String givenString) {
+        String result = givenString.trim();
+        return result;
     }
 }
 

@@ -1,12 +1,14 @@
 package StringProcessing;
 
+import java.io.IOException;
+
 /**
  * Created by allisonwalke on 5/8/17.
  */
 public interface IStringProcessor {
-    public void toLowerCase(String givenString);
+    public String toLowerCase(String givenString) throws IOException;
 
-    public void parseInteger(String givenString);
+    public int parseInteger(String givenString) throws IOException;
 
-    public void trim(String givenString);
+    public String trim(String givenString) throws IOException;
 }
