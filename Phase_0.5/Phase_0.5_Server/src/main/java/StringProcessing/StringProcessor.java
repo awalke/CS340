@@ -7,16 +7,19 @@ public class StringProcessor implements IStringProcessor{
 
     public String toLowerCase(String givenString) {
         String result = givenString.toLowerCase();
+        System.out.println(result);
         return result;
     }
 
     public int parseInteger(String givenString) {
         int result = Integer.parseInt(givenString);
+        System.out.println(result);
         return result;
     }
 
     public String trim(String givenString) {
         String result = givenString.trim();
+        System.out.println(result);
         return result;
     }
 }
