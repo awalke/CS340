@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase_0.5_Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase_0.5_Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase_0.5_Server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase_0.5_Server_main.iml" group="Phase_0.5_Server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase_0.5_Server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase_0.5_Server_test.iml" group="Phase_0.5_Server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command.iml" filepath="$PROJECT_DIR$/.idea/modules/command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command_main.iml" filepath="$PROJECT_DIR$/.idea/modules/command_main.iml" group="command" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command_test.iml" filepath="$PROJECT_DIR$/.idea/modules/command_test.iml" group="command" />
     </modules>
   </component>
 </project>
