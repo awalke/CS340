@@ -23,6 +23,8 @@
       <module name="command_test" target="1.5" />
       <module name="Phase_0.5_Server_main" target="1.5" />
       <module name="Phase_0.5_Server_test" target="1.5" />
+      <module name="standard_main" target="1.5" />
+      <module name="standard_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
