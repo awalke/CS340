@@ -1,4 +1,4 @@
-import Communicators.ServerCommunicator;
+import communicators.ServerCommunicator;
 
 /**
  * Created by awalke on 5/8/17.

@@ -1,4 +1,4 @@
-package StringProcessing;
+package processing;
 
 import java.io.IOException;
 

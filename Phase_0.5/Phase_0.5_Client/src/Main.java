@@ -1,7 +1,5 @@
-import StringProcessing.IStringProcessor;
-import StringProcessing.StringProcessorProxy;
-
-import java.io.IOException;
+import processing.IStringProcessor;
+import processing.StringProcessorProxy;
 
 /**
  * Created by allisonwalke on 5/9/17.

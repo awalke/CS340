@@ -1,6 +1,6 @@
-package StringProcessing;
+package processing;
 
-import Communicators.ClientCommunicator;
+import communicators.ClientCommunicatorStandard;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import java.io.IOException;
  * Created by allisonwalke on 5/9/17.
  */
 public class StringProcessorProxy implements IStringProcessor {
-    private ClientCommunicator clientCommunicator;
+    private ClientCommunicatorStandard clientCommunicator;
     private static StringProcessorProxy instance;
 
     public static StringProcessorProxy getInstance() throws IOException {
@@ -20,7 +20,7 @@ public class StringProcessorProxy implements IStringProcessor {
     }
 
     private StringProcessorProxy() throws IOException {
-        clientCommunicator = new ClientCommunicator();
+        clientCommunicator = new ClientCommunicatorStandard();
     }
 
     @Override

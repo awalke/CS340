@@ -1,16 +1,12 @@
-package Communicators;
+package communicators;
 
-import Handlers.ParseInteger;
-import Handlers.ToLowerCase;
-import Handlers.Trim;
-import com.google.gson.JsonObject;
-import com.sun.net.httpserver.HttpContext;
-import com.sun.net.httpserver.HttpHandler;
+import handlers.ParseInteger;
+import handlers.ToLowerCase;
+import handlers.Trim;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.util.concurrent.Executor;
 
 /**
  * Created by awalke on 5/8/17.
