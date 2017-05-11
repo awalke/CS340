@@ -18,11 +18,12 @@ public class ParseInteger implements HttpHandler {
         InputStream inputStream = httpExchange.getRequestBody();
 
         IStringProcessor processor = StringProcessor.getInstance();
-        String response = String.valueOf(processor.parseInteger(BaseHandler.decode(inputStream)));
+        String response = processor.parseInteger(BaseHandler.decode(inputStream));
+        String jsonString = BaseHandler.encode(response).toString();
 
-        httpExchange.sendResponseHeaders(200, response.length());
+        httpExchange.sendResponseHeaders(200, jsonString.length());
         OutputStream os = httpExchange.getResponseBody();
-        os.write(response.getBytes());
+        os.write(jsonString.getBytes());
         os.close();
     }
 }

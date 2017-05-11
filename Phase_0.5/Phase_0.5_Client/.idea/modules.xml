@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Phase_0.5_Client.iml" filepath="$PROJECT_DIR$/Phase_0.5_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase_0.5_Client.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase_0.5_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase_0.5_Client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase_0.5_Client_main.iml" group="Phase_0.5_Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase_0.5_Client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase_0.5_Client_test.iml" group="Phase_0.5_Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command/command.iml" filepath="$PROJECT_DIR$/.idea/modules/command/command.iml" group="command" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command/command_main.iml" filepath="$PROJECT_DIR$/.idea/modules/command/command_main.iml" group="command" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command/command_test.iml" filepath="$PROJECT_DIR$/.idea/modules/command/command_test.iml" group="command" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/standard/standard.iml" filepath="$PROJECT_DIR$/.idea/modules/standard/standard.iml" group="standard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/standard/standard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/standard/standard_main.iml" group="standard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/standard/standard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/standard/standard_test.iml" group="standard" />
     </modules>
   </component>
 </project>

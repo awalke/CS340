@@ -11,8 +11,23 @@ import java.io.IOException;
  */
 public class Command implements ICommand{
     private String type;
+    private String str;
+
+    public Command(String type, String str) {
+        this.type = type;
+        this.str = str;
+    }
 
     public Results execute() {
-        return null;
+        ICommand command = null;
+
+        if (type.equals("trim")) {
+            command = new TrimCommand(str);
+        } else if (type.equals("toLowerCase")) {
+            command = new ToLowerCaseCommand(str);
+        } else if (type.equals("parseInt")) {
+            command = new ParseIntegerCommand(str);
+        }
+        return command.execute();
     }
 }

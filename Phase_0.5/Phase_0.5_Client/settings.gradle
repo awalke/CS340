@@ -1,0 +1,4 @@
+rootProject.name = 'Phase_0.5_Client'
+include 'standard'
+include 'command'
+

@@ -21,6 +21,10 @@ public class BaseHandler {
     }
 
     public static JsonObject encode(String responseString) {
-        return null;
+        JsonObject jsonObject = new JsonObject();
+        jsonObject.addProperty("responseString", responseString);
+
+        return jsonObject;
+
     }
 }

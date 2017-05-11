@@ -1,10 +1,7 @@
 package communicators;
 
 import com.sun.net.httpserver.HttpServer;
-import commands.Command;
-import handlers.ParseIntegerHandler;
-import handlers.ToLowerCaseHandler;
-import handlers.TrimHandler;
+import handlers.ExecCommandHandler;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -17,9 +14,9 @@ public class ServerCommunicator {
 
     public ServerCommunicator() throws IOException {
         server = server.create(new InetSocketAddress(8080), 0);
-        server.createContext("/toLowerCase", new ToLowerCaseHandler());
-        server.createContext("/trim", new TrimHandler());
-        server.createContext("/parseInt", new ParseIntegerHandler());
+        server.createContext("/toLowerCase", new ExecCommandHandler());
+        server.createContext("/trim", new ExecCommandHandler());
+        server.createContext("/parseInt", new ExecCommandHandler());
         server.start();
     }
 }

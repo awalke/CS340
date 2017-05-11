@@ -8,7 +8,7 @@ import java.io.IOException;
 public interface IStringProcessor {
     String toLowerCase(String givenString) throws IOException;
 
-    int parseInteger(String givenString) throws IOException;
+    String parseInteger(String givenString) throws IOException;
 
     String trim(String givenString) throws IOException;
 }

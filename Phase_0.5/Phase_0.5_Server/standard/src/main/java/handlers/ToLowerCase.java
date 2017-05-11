@@ -18,10 +18,12 @@ public class ToLowerCase implements HttpHandler {
 
         StringProcessor processor = StringProcessor.getInstance();
         String response = processor.toLowerCase(BaseHandler.decode(inputStream));
+        String jsonString = BaseHandler.encode(response).toString();
+        System.out.println(jsonString);
 
-        httpExchange.sendResponseHeaders(200, response.length());
+        httpExchange.sendResponseHeaders(200, jsonString.length());
         OutputStream os = httpExchange.getResponseBody();
-        os.write(response.getBytes());
+        os.write(jsonString.getBytes());
         os.close();
     }
 }

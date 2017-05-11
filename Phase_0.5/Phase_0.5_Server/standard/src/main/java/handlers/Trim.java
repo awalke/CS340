@@ -18,10 +18,11 @@ public class Trim implements HttpHandler {
 
         IStringProcessor stringProcessor = StringProcessor.getInstance();
         String response = stringProcessor.trim(BaseHandler.decode(inputStream));
+        String jsonString = BaseHandler.encode(response).toString();
 
-        httpExchange.sendResponseHeaders(200, response.length());
+        httpExchange.sendResponseHeaders(200, jsonString.length());
         OutputStream os = httpExchange.getResponseBody();
-        os.write(response.getBytes());
+        os.write(jsonString.getBytes());
         os.close();
     }
 }

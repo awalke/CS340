@@ -2,35 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac690bdc-6abf-48d6-a1de-49f80847bbe4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/src/command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/src/communicators/ClientCommunicatorCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/src/main/java/commands/data/ParseIntegerCommandData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/src/main/java/commands/data/ToLowerCaseCommandData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/src/main/java/commands/data/TrimCommandData.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/Communicators/ClientCommunicator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/StringProcessing/IStringProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/StringProcessing/StringProcessorProxy.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/command/src/main/java/Commands/Command.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/command/src/main/java/Commands/ICommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/ICommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/command/src/main/java/Commands/ParseIntegerCommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/command/src/main/java/Commands/ToLowerCaseCommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/command/src/main/java/Commands/TrimCommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/TrimCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/Communicators/ServerCommunicator.java" afterPath="$PROJECT_DIR$/standard/src/main/java/communicators/ServerCommunicator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/Handlers/BaseHandler.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/Handlers/ParseInteger.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/Handlers/ToLowerCase.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/Handlers/Trim.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/StringProcessing/IStringProcessor.java" afterPath="$PROJECT_DIR$/standard/src/main/java/processing/IStringProcessor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/standard/src/main/java/StringProcessing/StringProcessor.java" afterPath="$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/libraries/Gradle__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/libraries/Gradle__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/Phase_0.5_Client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/Phase_0.5_Client_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/Phase_0.5_Client_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/command/command.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/command/command_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/command/command_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/standard/standard.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/standard/standard_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules/standard/standard_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/command/Command.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/communicator/ClientCommunicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/processing/IStringProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/processing/StringProcessorProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/results/Results.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/command/src/main/java/serializer/Serializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/standard/src/main/java/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/standard/src/main/java/communicator/ClientCommunicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/standard/src/main/java/processing/StringProcessorProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/standard/src/main/java/serializer/Serializer.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/Phase_0.5_Client.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/out/production/Phase_0.5_Client/Communicators/ClientCommunicator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/out/production/Phase_0.5_Client/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/out/production/Phase_0.5_Client/StringProcessing/IStringProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/out/production/Phase_0.5_Client/StringProcessing/StringProcessorProxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/command/Command.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/communicators/ClientCommunicatorCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/communicators/ClientCommunicatorStandard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/processing/IStringProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/processing/StringProcessorProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/HandlerBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/build/classes/main/Main.class" afterPath="$PROJECT_DIR$/command/build/classes/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/build/classes/main/Communicators/ServerCommunicator.class" afterPath="$PROJECT_DIR$/standard/build/classes/main/Communicators/ServerCommunicator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/build/classes/main/Handlers/BaseHandler.class" afterPath="$PROJECT_DIR$/standard/build/classes/main/Handlers/BaseHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/build/classes/main/Handlers/ParseInteger.class" afterPath="$PROJECT_DIR$/standard/build/classes/main/Handlers/ParseInteger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/build/classes/main/Handlers/ToLowerCase.class" afterPath="$PROJECT_DIR$/standard/build/classes/main/Handlers/ToLowerCase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/build/classes/main/Handlers/Trim.class" afterPath="$PROJECT_DIR$/standard/build/classes/main/Handlers/Trim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/build/classes/main/Main.class" afterPath="$PROJECT_DIR$/standard/build/classes/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/Phase_0.5_Client.iml" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/Phase_0.5_Client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phase_0.5_Client/src/Main.java" afterPath="$PROJECT_DIR$/../Phase_0.5_Client/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/command_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/command_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/command_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/command_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/build.gradle" afterPath="$PROJECT_DIR$/command/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/Main.java" afterPath="$PROJECT_DIR$/command/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/commands/Command.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/Command.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/commands/TrimCommand.java" afterPath="$PROJECT_DIR$/command/src/main/java/commands/TrimCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java" afterPath="$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java" afterPath="$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java" afterPath="$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java" afterPath="$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/Main.java" afterPath="$PROJECT_DIR$/standard/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/handlers/ExecCommandHandler.java" afterPath="$PROJECT_DIR$/command/src/main/java/handlers/ExecCommandHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/processors/StringProcessor.java" afterPath="$PROJECT_DIR$/command/src/main/java/processors/StringProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/results/Results.java" afterPath="$PROJECT_DIR$/command/src/main/java/results/Results.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/src/main/java/serializer/Serializer.java" afterPath="$PROJECT_DIR$/command/src/main/java/serializer/Serializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java" afterPath="$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/processing/IStringProcessor.java" afterPath="$PROJECT_DIR$/standard/src/main/java/processing/IStringProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java" afterPath="$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java" />
     </list>
     <ignored path="Phase_0.5_Server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,12 +121,6 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
             </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-            </PATH>
           </tree_state>
         </projects_view>
       </state>
@@ -95,115 +131,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServerCommunicator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseInteger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerCommunicator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/communicators/ServerCommunicator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToLowerCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trim.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToLowerCaseHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrimHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandlerBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/HandlerBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParseIntegerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecCommandHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ExecCommandHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToLowerCaseCommandData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/data/ToLowerCaseCommandData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrimCommandData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/data/TrimCommandData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParseIntegerCommandData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/data/ParseIntegerCommandData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -223,6 +215,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-bin/ebaspjjvvkuki3ldbldx7hexd/gradle-2.9" />
+        <entry key="$PROJECT_DIR$/command" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-bin/ebaspjjvvkuki3ldbldx7hexd/gradle-2.9" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2.9" />
+        <entry key="$PROJECT_DIR$/command" value="2.9" />
+      </map>
+    </option>
     <option name="availableProjects">
       <map>
         <entry>
@@ -655,8 +659,8 @@
         <entry key="/Ancestry/DigitalAssetService" value="4396251445000" />
         <entry key="/Ancestry/SearchMediaPublishing" value="2935650833000" />
         <entry key="/Ancestry/test-suite" value="5926163281000" />
-        <entry key="$PROJECT_DIR$" value="4483074024000" />
-        <entry key="$PROJECT_DIR$/command" value="2988713292000" />
+        <entry key="$PROJECT_DIR$" value="4483060072000" />
+        <entry key="$PROJECT_DIR$/command" value="2988853314000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -856,27 +860,38 @@
         <option value="$PROJECT_DIR$/src/main/java/StringProcessing/IStringProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/StringProcessing/StringProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/Communicators/ServerCommunicator.java" />
-        <option value="$PROJECT_DIR$/command/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/standard/build.gradle" />
         <option value="$PROJECT_DIR$/command/src/main/java/Results.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/Commands/Command.java" />
-        <option value="$PROJECT_DIR$/command/src/main/java/results/Results.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/Commands/ICommand.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/commands/ICommand.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/handlers/HandlerBase.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/processors/IStringProcessor.java" />
-        <option value="$PROJECT_DIR$/command/src/main/java/processors/StringProcessor.java" />
-        <option value="$PROJECT_DIR$/command/src/main/java/serializer/Serializer.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommandData.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommandData.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/commands/TrimCommandData.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/commands/data/TrimCommandData.java" />
-        <option value="$PROJECT_DIR$/command/src/main/java/commands/Command.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java" />
         <option value="$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/results/Results.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/command/build.gradle" />
+        <option value="$PROJECT_DIR$/command/src/main/java/serializer/Serializer.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommand.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/commands/TrimCommand.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommand.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/processors/StringProcessor.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/handlers/ExecCommandHandler.java" />
+        <option value="$PROJECT_DIR$/command/src/main/java/commands/Command.java" />
+        <option value="$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java" />
+        <option value="$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java" />
+        <option value="$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java" />
+        <option value="$PROJECT_DIR$/standard/src/main/java/processing/IStringProcessor.java" />
+        <option value="$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java" />
+        <option value="$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java" />
       </list>
     </option>
   </component>
@@ -889,7 +904,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1680" />
     <option name="y" value="-535" />
-    <option name="width" value="977" />
+    <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -953,12 +968,112 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1023,6 +1138,46 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phase_0.5_Server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
@@ -1058,67 +1213,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phase_0.5_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phase_0.5_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communicators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phase_0.5_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Phase_0.5_Server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
+              <option name="myItemId" value="processors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1427,25 +1522,26 @@
     <option name="totallyTimeSpent" value="6784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="-535" width="977" height="1057" extended-state="0" />
+    <frame x="1680" y="-535" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30296826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15761448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22949947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1457,7 +1553,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1508,23 +1603,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/HandlerBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,9 +1632,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#630#631#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1662,132 +1745,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/processing/IStringProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standard/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/results/Results.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/ICommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/TrimCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1797,26 +1758,6 @@
         <state relative-caret-position="120">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/processors/StringProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/serializer/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1836,10 +1777,217 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/HandlerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/results/Results.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#398#399#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#524#525#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/serializer/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/ToLowerCaseCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/ParseIntegerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/data/TrimCommandData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/TrimCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ExecCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/Trim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/src/main/java/processors/StringProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="42" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/BaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/processing/IStringProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/processing/StringProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1848,79 +1996,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/commands/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ExecCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/HandlerBase.java">
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/ToLowerCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ParseIntegerHandler.java">
+    <entry file="file://$PROJECT_DIR$/standard/src/main/java/handlers/ParseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/ToLowerCaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/handlers/TrimHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/src/main/java/communicators/ServerCommunicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
